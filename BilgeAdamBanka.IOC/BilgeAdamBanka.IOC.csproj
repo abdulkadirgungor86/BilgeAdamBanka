@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeAdamBanka.BLL\BilgeAdamBanka.BLL.csproj" />
+    <ProjectReference Include="..\BilgeAdamBanka.DAL\BilgeAdamBanka.DAL.csproj" />
+    <ProjectReference Include="..\BilgeAdamBanka.MAP\BilgeAdamBanka.MAP.csproj" />
+    <ProjectReference Include="..\BilgeAdamBanka.VALIDATION\BilgeAdamBanka.VALIDATION.csproj" />
+  </ItemGroup>
+
+</Project>

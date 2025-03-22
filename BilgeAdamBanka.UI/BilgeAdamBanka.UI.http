@@ -1,0 +1,6 @@
+@BilgeAdamBanka.UI_HostAddress = http://localhost:5094
+
+GET {{BilgeAdamBanka.UI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
